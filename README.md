@@ -13,8 +13,7 @@ The module for take a survey from the customer for from where they come on your 
 
 2. Install module:
 
-   ```
-
+ ```
 - Download [the latest version here](https://github.com/mitaldeveloper/magneto2-survey-review/archive/main.zip) 
 - Extract `master.zip` file to `app/code/Mital/Survey` ; You should create a folder path `app/code//Mital/Survey` if not exist.
 - Go to Magento root folder and run upgrade command line to install `Mital_Survey`:
