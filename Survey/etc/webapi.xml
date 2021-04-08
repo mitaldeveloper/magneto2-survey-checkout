@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+
+    <!-- Managing checkout survey -->
+    <route url="/V1/guest-carts/:cartId/set-survey-answer" method="PUT">
+        <service class="Mital\Survey\Api\GuestOrderSurveyManagementInterface" method="saveOrderSurveyAnswer"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+
+    <!-- Managing checkout survey -->
+    <route url="/V1/carts/mine/set-survey-answer" method="PUT">
+        <service class="Mital\Survey\Api\OrderSurveyManagementInterface" method="saveOrderSurveyAnswer"/>
+        <resources>
+            <resource ref="self" />
+        </resources>
+        <data>
+            <parameter name="cartId" force="true">%cart_id%</parameter>
+        </data>
+    </route>
+</routes>

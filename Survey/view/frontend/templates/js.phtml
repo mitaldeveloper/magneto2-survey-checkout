@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    require([
+    "jquery"    
+    ], function($){"use strict";                
+
+        $( ".select.survey-option").change(function(e) {
+          e.preventDefault();
+          var selectValue = $('.select.survey-option').val();
+            if(selectValue == 'Other'){
+                $('.survey-other').show();
+              }else{
+                $('.survey-other').hide();
+              }
+        });         
+
+    });
+</script>

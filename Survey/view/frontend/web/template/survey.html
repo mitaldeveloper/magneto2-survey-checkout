@@ -1,0 +1,21 @@
+<!-- ko if: window.checkoutConfig.isEnabledSurvey == 1 -->
+<form class="form mital-survey-form">	
+	<div class="control field _required">
+		<label class="survey-title" for="survey-option" data-bind="text: getSurveyTitle()"></label>
+		<select class="required-entry select survey-option" id="survey-option" name="survey-option" id="mital-survey-time"
+			data-bind="
+			value: survey,
+			options: surveyOptions,
+			optionsCaption: $t('-- Please Choose--')"
+			aria-required="true">		
+		</select>
+	</div>
+	<!-- ko if: window.checkoutConfig.isEnabledOtherOption == 1 -->
+		<div class="survey-other-area" style="display: none;">
+			<label class="survey-title" data-bind="i18n: 'Please specify:'"></label>
+			<textarea class="survey-other required" required name="survey-other"></textarea>
+		</div>
+		
+	<!-- /ko -->
+</form>
+<!-- /ko -->

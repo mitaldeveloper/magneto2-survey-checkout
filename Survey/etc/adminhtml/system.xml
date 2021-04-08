@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="mital" translate="label" sortOrder="10">
+            <label>Mital-survey</label>
+        </tab>
+        <section id="survey" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Survey</label>
+            <tab>mital</tab>
+            <resource>Magento_Config::config</resource>
+            <!-- <resource>VENDOR_MODULE::path_to_the_acl_resource</resource> -->
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Survey</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="survey_text" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Survey Text</label>
+                    <comment>This text will display on the frontend.</comment>
+                </field>
+                <field id="other_option" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable "Other" value</label>
+                    <comment>If enabled, users can type free text and "Other" label will be added to dropdown</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="survey_option" translate="label" sortOrder="220" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Values</label>
+                    <comment>Values entered here will appear as labels in feedback dropdown on checkout page</comment>
+                    <frontend_model>Mital\Survey\Block\System\Config\Form\Field\Active</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

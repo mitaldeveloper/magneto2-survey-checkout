@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">   
+    <preference for="Mital\Survey\Api\Data\OrderSurveyInterface" type="Mital\Survey\Model\Data\OrderSurvey" />
+    <preference for="Mital\Survey\Api\OrderSurveyManagementInterface" type="Mital\Survey\Model\OrderSurveyManagement" />
+    <preference for="Mital\Survey\Api\GuestOrderSurveyManagementInterface" type="Mital\Survey\Model\GuestOrderSurveyManagement" />    
+</config>

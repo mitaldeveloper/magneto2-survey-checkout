@@ -1,0 +1,13 @@
+<?php if($survey = $block->getSurveyAnswer()):?>
+    <section class="admin__page-section">
+        <div class="admin__page-section-title">
+            <span class="title"><?php /* @escapeNotVerified */ echo __('Survey Information') ?></span>
+        </div>
+        <div class="admin__page-section-content">
+        	<strong><?= __('Survey Question: ') ?></strong>
+            <span><?php echo nl2br($block->escapeHtml($block->getSurveyQuestion()));?></span> <br/>
+        	<strong><?= __('Answer: ') ?></strong>
+            <span><?php echo nl2br($block->escapeHtml($survey));?></span>
+        </div>
+    </section>
+<?php endif; ?>
