@@ -1,25 +1,26 @@
 {
-  "name": "mital/survey",
-  "description": "Customer survey orr review module for Magento 2 ",
-  "require": {
-    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
-  },
-  "type": "magento2-module",
-  "version": "2.0.1",
-  "license": "OSL-3.0",
-  "autoload": {
-    "files": [ "registration.php" ],
+    "name": "mital/survey",
+    "description": "Customer Survey or Review on Checkout for Magento 2",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mital Shah",
+            "email": "mitald1shah@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "~7.0.0|~7.1.0|~7.2.0"        
+    },
+    "autoload": {        
+        "files": [
+            "registration.php"
+        ],
     "psr-4": {
-      "Mital\\Survey\\": ""
+        "Mital\\Survey\\": ""
+      }
     }
-  },
-  "authors": [
-    {
-      "name": "Mital shah",
-      "email": "mitald1shah@gmail.com"
-    }
-  ],
-  "support": {
-    "email": "mitald1shah@gmail.com"
-  }
 }
