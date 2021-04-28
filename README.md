@@ -30,7 +30,7 @@ The module for take a survey from the customer for from where they come on your 
 
 ## Configuration
 
-1. Enable the International Telephone Input module in Magento® Admin under *Stores* >
+1. Enable the Checkout Survey module in Magento® Admin under *Stores* >
    *Configuration* > *Mital-Survey* > *Survey*.
 
     ![Disable/Enable Customer Survey or Review module](https://www.awesomescreenshot.com/image/7152182?key=eb6f8efaf6efb4cea030bb7023a86228 "Disable/Enable Customer Survey or Review module")
