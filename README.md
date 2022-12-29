@@ -1,4 +1,4 @@
-# Customer Survey or Review module for Magento 2
+# Customer Survey or Review on Checkout for Magento 2
 
 The module for take a survey from the customer for from where they come on your site or heared of your site. Added extra "other" option where they can write their reference.
 
