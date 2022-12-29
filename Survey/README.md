@@ -29,7 +29,7 @@ The module for take a survey from the customer for from where they come on your 
    php bin/magento cache:clean
    ```
 
-**## Configuration**
+** Configuration**
 
 1. Enable and configure the Survey module in Magento® Admin under *Stores* >
    *Configuration* > *Mital-Survey* > *Survey*.
