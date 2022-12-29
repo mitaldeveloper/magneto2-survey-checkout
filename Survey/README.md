@@ -15,7 +15,7 @@ The module for take a survey from the customer for from where they come on your 
 
    ```
 
-- Download [the latest version here](https://github.com/mitaldeveloper/magneto2-survey-review/archive/main.zip) 
+- Download ![the latest version here](https://github.com/mitaldeveloper/magneto2-survey-review/archive/main.zip) 
 - Extract `master.zip` file to `app/code/Mital/Survey` ; You should create a folder path `app/code//Mital/Survey` if not exist.
 - Go to Magento root folder and run upgrade command line to install `Mital_Survey`:
 
@@ -28,7 +28,7 @@ The module for take a survey from the customer for from where they come on your 
    php bin/magento setup:upgrade
    php bin/magento cache:clean
    ```
- ![Disable/Enable and configure Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-admin-setting.png?raw=true)"Disable/Enable and configure Customer Survey or Review module"
+ 
 **Configuration**
 
 1. Enable and configure the Survey module in Magento® Admin under *Stores* >
