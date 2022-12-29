@@ -28,8 +28,8 @@ The module for take a survey from the customer for from where they come on your 
    php bin/magento setup:upgrade
    php bin/magento cache:clean
    ```
-
-** Configuration**
+ ![Disable/Enable and configure Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-admin-setting.png?raw=true)"Disable/Enable and configure Customer Survey or Review module"
+**Configuration**
 
 1. Enable and configure the Survey module in Magento® Admin under *Stores* >
    *Configuration* > *Mital-Survey* > *Survey*.
