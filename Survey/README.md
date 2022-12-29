@@ -3,7 +3,7 @@
 The module for take a survey from the customer for from where they come on your site or heared of your site. Added extra "other" option where they can write their reference.
 
 
-![Demo Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-admin-setting.png?raw=true)"Demo Customer Survey or Review module")
+![Demo Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-frontend.jpg?raw=true)"Demo Customer Survey or Review module")
 
 
 
@@ -31,8 +31,8 @@ The module for take a survey from the customer for from where they come on your 
 
 ## Configuration
 
-1. Enable the International Telephone Input module in Magento® Admin under *Stores* >
+1. Enable and configure the Survey module in Magento® Admin under *Stores* >
    *Configuration* > *Mital-Survey* > *Survey*.
 
-    ![Disable/Enable Customer Survey or Review module]([https://www.awesomescreenshot.com/image/7152182?key=eb6f8efaf6efb4cea030bb7023a86228](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-frontend.jpg) "Disable/Enable Customer Survey or Review module")
+    ![Disable/Enable Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-admin-setting.png?raw=true) "Disable/Enable and configure Customer Survey or Review module")
 
