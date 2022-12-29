@@ -3,7 +3,7 @@
 The module for take a survey from the customer for from where they come on your site or heared of your site. Added extra "other" option where they can write their reference.
 
 
-![Demo Customer Survey or Review module](https://www.awesomescreenshot.com/image/7152441?key=803e64c86f85cd9f403a6cd218c9c07a "Demo Customer Survey or Review module")
+![Demo Customer Survey or Review module](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-admin-setting.png?raw=true)"Demo Customer Survey or Review module")
 
 
 
