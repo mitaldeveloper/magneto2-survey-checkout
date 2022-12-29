@@ -34,5 +34,5 @@ The module for take a survey from the customer for from where they come on your 
 1. Enable the International Telephone Input module in Magento® Admin under *Stores* >
    *Configuration* > *Mital-Survey* > *Survey*.
 
-    ![Disable/Enable Customer Survey or Review module](https://www.awesomescreenshot.com/image/7152182?key=eb6f8efaf6efb4cea030bb7023a86228 "Disable/Enable Customer Survey or Review module")
+    ![Disable/Enable Customer Survey or Review module]([https://www.awesomescreenshot.com/image/7152182?key=eb6f8efaf6efb4cea030bb7023a86228](https://github.com/mitaldeveloper/magneto2-survey-checkout/blob/master/Survey/survey-frontend.jpg) "Disable/Enable Customer Survey or Review module")
 
